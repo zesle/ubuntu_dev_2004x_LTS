@@ -12771,6 +12771,23 @@ Multi-Arch: foreign
 Homepage: http://zeslecp.com
 Description: Zesle Agent
 
+Package: zesle-agent
+Version: 1.0.1-9
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 21189
+Depends: libc6 (>= 2.28), libmagic1 (>= 5.12)
+Filename: pool/focal/main/zesle-agent_1.0.1-9_amd64.deb
+Size: 7022280
+MD5sum: 2d6f2662f239807359ec67889a4faf4f
+SHA1: 91a6c90af2816d25a74f0e4bc9c6e031772acc17
+SHA256: 176b0f162bdba5572230172fdacf49920a8ddaf7911cb308993cf7725485dedd
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: http://zeslecp.com
+Description: Zesle Agent
+
 Package: zesle-chrootsh
 Version: 1.0-4
 Architecture: amd64
@@ -12830,32 +12847,10 @@ Installed-Size: 39188
 Depends: zesle-php-cli, supervisor, net-tools, certbot, bind9, bind9-utils, dovecot-imapd, dovecot-pop3d, exim4, exim4-daemon-heavy, pure-ftpd (>= 2.0.49), putty-tools, links, zesle-php-fpm, faketime
 Provides: php
 Filename: pool/focal/main/zesle-php_7.4.29-11_amd64.deb
-Size: 9755056
-MD5sum: ff7ddc2613f55509e6bd8a8e70ae753c
-SHA1: b6231ab95fdb290e56226c3c21b66742e52904f3
-SHA256: c46611d147dcf4c1a4c6ac63b65e43c11f59f6a9210d5982d37d2d628e559a6d
-Section: extra
-Priority: Priority
-Homepage: http://www.php.net/
-Description: PHP is an HTML-embedded scripting language. PHP attempts to make it
- easy for developers to write dynamically generated web pages. PHP also
- offers built-in database integration for several commercial and
- non-commercial database management systems, so writing a
- database-enabled webpage with PHP is fairly simple. The most common
- use of PHP coding is probably as a replacement for CGI scripts.
-
-Package: zesle-php
-Version: 7.4.29-5
-Architecture: amd64
-Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
-Installed-Size: 39011
-Depends: zesle-php-cli, supervisor, net-tools, certbot, bind9, bind9-utils, dovecot-imapd, dovecot-pop3d, exim4, exim4-daemon-heavy, pure-ftpd (>= 2.0.49), putty-tools, links, zesle-php-fpm, faketime
-Provides: php
-Filename: pool/focal/main/zesle-php_7.4.29-5_amd64.deb
-Size: 9714672
-MD5sum: 87564f29c750020c21857020181f850c
-SHA1: 5c65849182c2269c6bf2a3f6651dc62655559e8a
-SHA256: 458b4d5e92c7737e4992ae576cf535870bb21deeff0a5995a00be3430dc8a297
+Size: 9754868
+MD5sum: 2e39049f364d8dd61e3e66a418c7a785
+SHA1: 90352aad0d5ec9eced03fcb379ae82be4fe49e1f
+SHA256: 0df5339e881833bbe386bf91354c5d1ea036f235d7d652c7450e0e36beef5509
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -12918,28 +12913,10 @@ Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
 Installed-Size: 47771
 Depends: zesle-php, libargon2-1 (>= 0~20171227), libaspell15 (>= 0.60.8), libbz2-1.0, libc-client2007e, libc6 (>= 2.29), libcurl4 (>= 7.56.1), libedit2 (>= 3.1-20160903-0), libenchant1c2a (>= 1.6.0), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgmp10, libicu66 (>= 66.1-1~), libjpeg8 (>= 8c), libldap-2.4-2 (>= 2.4.25), libodbc1 (>= 2.3.1), libonig5 (>= 6.8.1), libpng16-16 (>= 1.6.2-1), libsnmp35 (>= 5.8+dfsg), libsqlite3-0 (>= 3.14.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 4.9), libtidy5deb1 (>= 1:5.2.0), libwebp6 (>= 0.5.1), libxml2 (>= 2.9.0), libxpm4, libxslt1.1 (>= 1.1.25), libzip5 (>= 1.5.0), zlib1g (>= 1:1.1.4)
 Filename: pool/focal/main/zesle-php-cli_7.4.29-11_amd64.deb
-Size: 8168840
-MD5sum: 55f8c1fbeb2f994c88e61e8b3a6be4e3
-SHA1: 1c37e27a563081fa897612381d18d133d7fa96a2
-SHA256: d49ed28affde9b8446969f01ec0fb4e0676b60ac349cef3243d04d8c564a19e4
-Section: extra
-Priority: Priority
-Homepage: http://www.php.net/
-Description: The php-cli package contains the command-line interface
- executing PHP scripts, /usr/bin/php, and the CGI interface.
-
-Package: zesle-php-cli
-Source: zesle-php
-Version: 7.4.29-5
-Architecture: amd64
-Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
-Installed-Size: 47791
-Depends: zesle-php, libargon2-1 (>= 0~20171227), libaspell15 (>= 0.60.8), libbz2-1.0, libc-client2007e, libc6 (>= 2.29), libcurl4 (>= 7.56.1), libedit2 (>= 3.1-20160903-0), libenchant1c2a (>= 1.6.0), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgmp10, libicu66 (>= 66.1-1~), libjpeg8 (>= 8c), libldap-2.4-2 (>= 2.4.25), libodbc1 (>= 2.3.1), libonig5 (>= 6.8.1), libpng16-16 (>= 1.6.2-1), libsnmp35 (>= 5.8+dfsg), libsqlite3-0 (>= 3.14.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 4.9), libtidy5deb1 (>= 1:5.2.0), libwebp6 (>= 0.5.1), libxml2 (>= 2.9.0), libxpm4, libxslt1.1 (>= 1.1.25), libzip5 (>= 1.5.0), zlib1g (>= 1:1.1.4)
-Filename: pool/focal/main/zesle-php-cli_7.4.29-5_amd64.deb
-Size: 8175560
-MD5sum: fca125aa6a2cdb5ac91b81487c70ab52
-SHA1: 8800914ec893eabd920ec7fd8afe2a0c910e87bc
-SHA256: 95b77006f10c0c680f6996916cb1f3f8573dfcb5268cee9cb0e8eb772173972d
+Size: 8170288
+MD5sum: 5f4962ee8b9a86c0286bac95bc2ab65d
+SHA1: d05a6597159d429cdb0efa3a23940f0026818d01
+SHA256: d9ce5944f5fe5172fedb265bb820395c9d943682daa437bf3602fbb23041d0d2
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -12990,29 +12967,10 @@ Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
 Installed-Size: 5636
 Depends: autoconf (>= 2.63), automake (>= 1.11), libpcre2-dev (>= 10.30), libssl-dev, pkg-config, zesle-php-cli (>= 7.4.29-11)
 Filename: pool/focal/main/zesle-php-dev_7.4.29-11_amd64.deb
-Size: 599772
-MD5sum: 527ea048b578cd0ab3e90e966188de63
-SHA1: 8d074f65f5e8878bdf8212150a47fc1f6ecf1950
-SHA256: cbc322adc509ef853330e17c021fd568b9187c618c779951e3e86c8806f67095
-Section: extra
-Priority: Priority
-Homepage: http://www.php.net/
-Description: The zesle-php-devel package contains the files needed for building PHP
-    extensions. If you need to compile your own PHP extensions, you will
-    need to install this package.
-
-Package: zesle-php-dev
-Source: zesle-php
-Version: 7.4.29-5
-Architecture: amd64
-Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
-Installed-Size: 5636
-Depends: autoconf (>= 2.63), automake (>= 1.11), libpcre2-dev (>= 10.30), libssl-dev, pkg-config, zesle-php-cli (>= 7.4.29-5)
-Filename: pool/focal/main/zesle-php-dev_7.4.29-5_amd64.deb
-Size: 599744
-MD5sum: 763125583ed84b5cbf80b05dc546d1e0
-SHA1: 94fe472e235c573ba42a499963dd3a6f5d41b2f9
-SHA256: ba088b724062c277b70f832e77d344a015640e6a74bc9a513e94e5dd84953c0f
+Size: 599768
+MD5sum: e8ba83e529a4037d0fe5538af2d2e028
+SHA1: d6bffc39a80fa4f87e365f0d16a9cfd4e51055bc
+SHA256: fe6ba9000a3c0e3c8b0ed273f049ebf328da71341a4e5d0c2b5553edf25e09fa
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -13066,29 +13024,10 @@ Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
 Installed-Size: 23708
 Depends: libmagic1, zesle-php-cli, mime-support, procps, systemd | systemd-tmpfiles, tzdata, ucf, libapparmor1 (>= 2.7.0~beta1+bzr1772), libargon2-1 (>= 0~20171227), libaspell15 (>= 0.60.8), libbz2-1.0, libc-client2007e, libc6 (>= 2.29), libcurl4 (>= 7.56.1), libedit2 (>= 3.1-20160903-0), libenchant1c2a (>= 1.6.0), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgmp10, libicu66 (>= 66.1-1~), libjpeg8 (>= 8c), libldap-2.4-2 (>= 2.4.25), libodbc1 (>= 2.3.1), libonig5 (>= 6.8.1), libpng16-16 (>= 1.6.2-1), libsnmp35 (>= 5.8+dfsg), libsqlite3-0 (>= 3.14.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 4.9), libsystemd0, libtidy5deb1 (>= 1:5.2.0), libwebp6 (>= 0.5.1), libxml2 (>= 2.9.0), libxpm4, libxslt1.1 (>= 1.1.25), libzip5 (>= 1.5.0), zlib1g (>= 1:1.1.4)
 Filename: pool/focal/main/zesle-php-fpm_7.4.29-11_amd64.deb
-Size: 4022224
-MD5sum: 9e49d6e1fce3f0d897e81f9f0f54fa51
-SHA1: 7573230fd025156641994ce2f54a0c0dbf2edd0b
-SHA256: 7767a2e8c8b9611be3fc0609c03c984410c2fdb9dcb498cd0fd61154022a9bfb
-Section: extra
-Priority: Priority
-Homepage: http://www.php.net/
-Description: PHP-FPM (FastCGI Process Manager) is an alternative PHP FastCGI
-    implementation with some additional features useful for sites of
-    any size, especially busier sites.
-
-Package: zesle-php-fpm
-Source: zesle-php
-Version: 7.4.29-5
-Architecture: amd64
-Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
-Installed-Size: 23720
-Depends: libmagic1, zesle-php-cli, mime-support, procps, systemd | systemd-tmpfiles, tzdata, ucf, libapparmor1 (>= 2.7.0~beta1+bzr1772), libargon2-1 (>= 0~20171227), libaspell15 (>= 0.60.8), libbz2-1.0, libc-client2007e, libc6 (>= 2.29), libcurl4 (>= 7.56.1), libedit2 (>= 3.1-20160903-0), libenchant1c2a (>= 1.6.0), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgmp10, libicu66 (>= 66.1-1~), libjpeg8 (>= 8c), libldap-2.4-2 (>= 2.4.25), libodbc1 (>= 2.3.1), libonig5 (>= 6.8.1), libpng16-16 (>= 1.6.2-1), libsnmp35 (>= 5.8+dfsg), libsqlite3-0 (>= 3.14.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 4.9), libsystemd0, libtidy5deb1 (>= 1:5.2.0), libwebp6 (>= 0.5.1), libxml2 (>= 2.9.0), libxpm4, libxslt1.1 (>= 1.1.25), libzip5 (>= 1.5.0), zlib1g (>= 1:1.1.4)
-Filename: pool/focal/main/zesle-php-fpm_7.4.29-5_amd64.deb
-Size: 4024084
-MD5sum: fe7e662162345ccd7e036f6887dcbe36
-SHA1: 228980f473e8ab322f2ee92b8574f397f1abeb21
-SHA256: 0c8b4a6c76b65f0b40a19e91a9219fae381fc055ee311b7c8ffc5edceb512ae7
+Size: 4020208
+MD5sum: aecde59bdde092e8e21920b421bca113
+SHA1: fe667f47c5e2e098e8545a0d5a589a3753f4c989
+SHA256: dda0d62fe31364aec16744573f708ee5c78c4aee0e1baa9cfd318901b27cf052
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -13145,6 +13084,23 @@ Size: 1021052
 MD5sum: dbbaf548efeb6db3c2b8799992ab736a
 SHA1: 3891de62e6dc58b4c8eb194509878d964803f6b4
 SHA256: 5817bdf7283e0ec8f0c6e054b108322b3025096e7d7c4d9d654454a19bfd3b4e
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: https://nginx.org
+Description: zeslesrv (nginx)
+
+Package: zeslesrv
+Version: 1.0-16
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 4226
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.3), libpcre3, libssl1.1 (>= 1.1.1), zlib1g (>= 1:1.1.4)
+Filename: pool/focal/main/zeslesrv_1.0-16_amd64.deb
+Size: 1021568
+MD5sum: 64e9d9a684ac908f14efcc5907d7dfbf
+SHA1: 1d9ba0b48a218fd1d77e161e71489df09b911cfe
+SHA256: 2f6735636807be23642a559690a91f9c991de1a27d192435268823853269983d
 Section: extra
 Priority: Priority
 Multi-Arch: foreign
